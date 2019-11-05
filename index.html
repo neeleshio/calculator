@@ -13,17 +13,16 @@
 <body>
     <div class="container">
         <div class="display">
-            <input type="text" id="input"><br>
+            <input type="text" id="input" class=""><br>
 
-            <input type="text" id="output">
+            <input type="text" id="output" class="">
 
         </div>
-
 
         <div class="keyboard">
             <button class="operator" id="allClear" onclick="allClr()">AC</button>
             <button class="operator" value="" onclick="clr()">C</button>
-            <button class="operator" value="/" onclick="disp('/')">÷ </button>
+            <button class="operator" value="/" onclick="disp('÷')">÷</button>
             <button class="number" value="7" onclick="disp('7')">7</button>
             <button class="number" value="8" onclick="disp('8')">8</button>
             <button class="number" value="9" onclick="disp('9')">9</button>
@@ -40,7 +39,6 @@
             <button class="number" value="." onclick="disp('.')">.</button>
             <button class="operator" id="equals" onclick="solve()">=</button>
         </div>
-
 
     </div>
 </body>

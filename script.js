@@ -10,8 +10,8 @@ function allClr() {
 
 function clr() {
     var clear = document.getElementById("input").value;
-    var c = clear.substr(0, (clear.length - 1));
-    document.getElementById("input").value = c;
+    var clearLastNum = clear.substr(0, (clear.length - 1));
+    document.getElementById("input").value = clearLastNum;
 }
 
 function solve() {

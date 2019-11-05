@@ -25,6 +25,7 @@ body{
     margin: 12px;
     float: left;
     border-radius: 50%;
+    border: none;
 }
 #allClear, #equals{
     width: 125px;

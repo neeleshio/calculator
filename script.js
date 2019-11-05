@@ -4,7 +4,7 @@ function disp(num) {
 
 function allClr() {
     document.getElementById("input").value = "";
-    document.getElementById("output").value = "";
+    document.getElementById("output").value = "0";
 
 }
 

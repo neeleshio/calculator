@@ -2,6 +2,7 @@ body{
     background-color: rgba(0, 0, 0, 0.897);
     height: 100vh;
     width: 100%;
+    
 }
 .container{
     background-color: rgba(71, 86, 88, 0.63);
@@ -12,11 +13,13 @@ body{
     position: relative;
     top: 70px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .keyboard{
     position: absolute;
     left: 15px;
     bottom: 5px;
+    cursor: pointer;
 }    
 
 .number, .operator{
@@ -26,6 +29,7 @@ body{
     float: left;
     border-radius: 50%;
     border: none;
+    cursor: pointer;
 }
 #allClear, #equals{
     width: 125px;

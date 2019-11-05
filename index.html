@@ -13,33 +13,32 @@
 <body>
     <div class="container">
         <div class="display">
-            <div id="input">
+            <input type="text" id="input"><br>
 
-            </div>
-            <div id="output">
+            <input type="text" id="output">
 
-            </div>
         </div>
 
+
         <div class="keyboard">
-            <button class="operator" id="allClear">AC</button>
-            <button class="operator">C</button>
-            <button class="operator">÷</button>
-            <button class="number">7</button>
-            <button class="number">8</button>
-            <button class="number">9</button>
-            <button class="operator">x</button>
-            <button class="number">4</button>
-            <button class="number">5</button>
-            <button class="number">6</button>
-            <button class="operator">-</button>
-            <button class="number">1</button>
-            <button class="number">2</button>
-            <button class="number">3</button>
-            <button class="operator">+</button>
-            <button class="number">0</button>
-            <button class="number">.</button>
-            <button class="operator" id="equals">=</button>
+            <button class="operator" id="allClear" onclick="allClr()">AC</button>
+            <button class="operator" value="" onclick="clr()">C</button>
+            <button class="operator" value="/" onclick="disp('/')">÷ </button>
+            <button class="number" value="7" onclick="disp('7')">7</button>
+            <button class="number" value="8" onclick="disp('8')">8</button>
+            <button class="number" value="9" onclick="disp('9')">9</button>
+            <button class="operator" value="*" onclick="disp('*')">x</button>
+            <button class="number" value="4" onclick="disp('4')">4</button>
+            <button class="number" value="5" onclick="disp('5')">5</button>
+            <button class="number" value="6" onclick="disp('6')">6</button>
+            <button class="operator" value="-" onclick="disp('-')">-</button>
+            <button class="number" value="1" onclick="disp('1')">1</button>
+            <button class="number" value="2" onclick="disp('2')">2</button>
+            <button class="number" value="3" onclick="disp('3')">3</button>
+            <button class="operator" value="+" onclick="disp('+')">+</button>
+            <button class="number" value="0" onclick="disp('0')">0</button>
+            <button class="number" value="." onclick="disp('.')">.</button>
+            <button class="operator" id="equals" onclick="solve()">=</button>
         </div>
 
 

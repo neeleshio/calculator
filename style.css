@@ -62,4 +62,7 @@ body{
     font-size: 13px;
     border: black 1px;
 }
+.operator:focus, .number:focus, .keyboard:focus{
+    outline: 0;
+}
 

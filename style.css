@@ -112,7 +112,7 @@ button:hover {
     }
 
     button:active:after  {
-        background: #3f3f3f83;
+        background: #3f3f3f;
         transition: 0s
     }
 

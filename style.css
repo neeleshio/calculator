@@ -104,7 +104,8 @@ button:hover {
     }
 
     button:hover {
-        background: #fff;
+        background: #3f3f3f83;
+        transition: all 0.8s
     }
 
   }

@@ -101,6 +101,7 @@ button:hover {
     button {
         height: 9vh;
         border-radius: 3px;
+        border: none;
     }
 
     button:hover {

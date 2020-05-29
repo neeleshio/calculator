@@ -105,12 +105,12 @@ button:hover {
         border: none;
     }
 
-    button:hover {
+    button:after {
         background: #3f3f3f83;
         transition: all 0.8s
     }
 
-    button:hover:after  {
+    button:active:after  {
         background: #3f3f3f83;
         transition: 0s
     }

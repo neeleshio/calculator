@@ -109,4 +109,9 @@ button:hover {
         transition: all 0.8s
     }
 
+    button:focus {
+        border: none;
+        outline: none;
+    }
+
   }

@@ -59,7 +59,7 @@ button {
 
 button:hover {
     background: #3f3f3f83;
-    transition: all 0.8s
+    transition: all 1s
 }
 
 .number {
@@ -106,14 +106,9 @@ button:hover {
         border: none;
     }
 
-    button:after {
+    button:hover {
         background: #3f3f3f83;
-        transition: all 0.2s
-    }
-
-    button:active:after  {
-        background: #3f3f3f;
-        transition: 0s
+        transition: all 1s
     }
 
     button:focus {

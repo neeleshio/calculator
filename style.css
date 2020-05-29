@@ -7,7 +7,6 @@
     position: absolute;
     width: 70%;
     height: 90%;
-
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -23,8 +22,6 @@
     font-size: 70px;
     direction: rtl;
     padding: 0 10px 0 10px;
-
-    
 }
 
 #input {
@@ -39,7 +36,6 @@
 .keyboard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
     grid-gap: 10px;
 }
 
@@ -59,7 +55,7 @@ button {
 
 button:hover {
     background: #3f3f3f83;
-    transition: all 1s
+    transition: all 0.8s
 }
 
 .number {
@@ -83,7 +79,6 @@ button:hover {
     }
 
     #input {
-        
         font-size: 50px;
         border-top: 1px solid #468500 ;
     }
@@ -108,7 +103,7 @@ button:hover {
 
     button:hover {
         background: #3f3f3f83;
-        transition: all 1s
+        transition: all 0.8s
     }
 
     button:focus {

@@ -83,6 +83,11 @@ button:hover {
 
     #input {
         border-top: none ;
+        font-size: 50px;
+    }
+
+    #output {
+        font-size: 40px;
     }
 
     #input, #output {

@@ -80,6 +80,7 @@ button:hover {
 
     #input {
         font-size: 50px;
+        border-top: none ;
     }
 
     #output {

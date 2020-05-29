@@ -76,4 +76,21 @@ button {
     * {
       width: 100% !important;
     }
+
+    #input {
+        border-top: none ;
+    }
+
+    #input, #output {
+        background: none;
+    }
+
+    .container {
+        padding: 9px;
+    }
+
+    button {
+        height: 9vh;
+    }
+
   }

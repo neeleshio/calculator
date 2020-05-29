@@ -76,15 +76,16 @@ button:hover {
     margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 768px) {
     * {
       width: 100% !important;
       -webkit-tap-highlight-color: transparent;
     }
 
     #input {
-        border-top: none ;
+        
         font-size: 50px;
+        border-top: 1px solid #468500 ;
     }
 
     #output {

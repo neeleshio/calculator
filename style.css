@@ -59,7 +59,7 @@ button {
 }
 
 .number {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -71,3 +71,9 @@ button {
 .display {
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 360px) {
+    * {
+      width: 100% !important;
+    }
+  }

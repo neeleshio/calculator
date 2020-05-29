@@ -91,6 +91,7 @@ button {
 
     button {
         height: 9vh;
+        border-radius: 3px;
     }
 
   }

@@ -110,6 +110,11 @@ button:hover {
         transition: all 0.8s
     }
 
+    button:hover:after  {
+        background: #3f3f3f83;
+        transition: 0s
+    }
+
     button:focus {
         border: none;
         outline: none;

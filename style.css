@@ -53,6 +53,12 @@ button:hover {
     transition: all 0.8s
 }
 
+button:focus {
+    border: none;
+    outline: none;
+    background: none;
+}
+
 .number {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;

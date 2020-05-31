@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     background: #1d1d1d;
-    overflow: hidden;
+    overflow-y: hidden;
     margin: 0;
     padding: 0;
 }
@@ -18,7 +18,7 @@ html {
 }
 
 input {
-    background: #1d1d1d;
+    background: #fff;
     color: #706d6d;
     border: 0;
     direction: rtl;

@@ -9,7 +9,7 @@
 }
 
 .container {
-    height: 30%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -31,7 +31,7 @@ input {
 }
 
 .keyboard {  
-    height: 70vh;
+    height: 65vh;
     border: none;
 }
 

@@ -7,18 +7,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+
     <title>Calculator V2.0</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="display">
-            <input type="text" id="input" class="" placeholder="0" disabled><br>
-            <input type="text" id="output" class="" disabled>
-        </div>
+        <input type="text" id="input" placeholder="0" disabled><br>
+        <input type="text" id="output" disabled>
+    </div>
 
-        <div class="keyboard">
+    <div class="keyboard">
+        <div class="buttons">
             <button class="operator" id="allClear" onclick="allCalcFunctions.allClr()">AC</button>
             <button class="operator" value="" id="clear" onclick="allCalcFunctions.clr()">C</button>
             <button class="operator" value="/" onclick="allCalcFunctions.disp('/')">&divide;</button>
@@ -39,6 +39,8 @@
             <button class="operator" id="equals" onclick="allCalcFunctions.solve()">=</button>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 

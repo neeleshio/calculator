@@ -1,14 +1,17 @@
 * {
     box-sizing: border-box;
     background: #1d1d1d;
-    height: 100%;
-    width: 100%;
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
+
 .container {
-    height: 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -30,7 +33,6 @@ input {
 }
 
 .keyboard {  
-    height: 70vh;
     border: none;
 }
 
@@ -39,6 +41,7 @@ input {
    grid-template-columns: repeat(4, 1fr);
    grid-gap: 10px;
    background:  #1d1d1d;
+   height: 68vh;
 }
 
 .number, .operator {
